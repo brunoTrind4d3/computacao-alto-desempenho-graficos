@@ -339,12 +339,21 @@
   </a>
 </div>
 
-<div class="content" role="main">
+<div class="content" role="main" style="display: flex; width: 100%">
   <p-chart
     type="line"
     [data]="data"
     [options]="options"
-    [height]="350"
+    [height]="500"
+    [width]="1200"
+  ></p-chart>
+  <br />
+  <p-chart
+    type="line"
+    [data]="data2"
+    [options]="options2"
+    [height]="500"
+    [width]="1200"
   ></p-chart>
 </div>
 
